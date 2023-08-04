@@ -1,0 +1,552 @@
+.form-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* changed align-content to align-items */
+  margin: 10px;
+}
+
+.form-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* added this line to center the child elements within the wrapper */
+  text-align: center;
+  height: 32vh;
+  width: 40vw;
+  margin-top: 50px;
+  border-radius: 20px;
+  background-color: #EAF6FF;
+  padding: 20px; /* added this line to add some padding around the wrapper */
+}
+
+.height{
+  height: 40vh;
+}
+
+.header{
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 80%;
+  font-size: 1.5em; /* added this line to increase the font size of the header */
+  font-weight: 400; /* added this line to make the header text bold */
+  padding-bottom: 10px; /* added this line to add some space between the header and the form */
+}
+
+.form-form{
+  display: flex;
+  justify-content: center;
+  align-items: center; /* changed align-content to align-items */
+  margin-top: 20px;
+}
+
+.form-input{
+  width: 15vw;
+  height: 25px;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px; /* added this line to add some padding inside the input field */
+  margin-right: 10px; /* added this line to add some space between the input and the button */
+}
+
+.form-btn{
+  border-radius: 15px;
+  background-color: #232528;
+  color: #EAF6FF;
+  margin: 5px;
+  padding: 10px 20px; /* added this line to add some padding around the button */
+  font-weight: bold; /* added this line to make the button text bold */
+  cursor: pointer; /* added this line to change the cursor to pointer when hovering over the button */
+  text-decoration: none;
+}
+
+.form-btn:hover{
+  background-color: #2a2a72;
+}
+
+/* NavBar styling */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #2a2a72;
+}
+
+.brand{
+  color: #EAF6FF;
+  text-decoration: none;
+}
+
+.menu{
+  color: #EAF6FF;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+Link {
+  color: #6c8aa0;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+Link:hover {
+  color: #EAF6FF;
+}
+
+.ecard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ewrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* added this line to center the child elements within the wrapper */
+  text-align: center;
+  height: 33vh;
+  width: 28vw;
+  margin-top: 50px;
+  border-radius: 20px;
+  background-color: #EAF6FF;
+  padding: 20px;
+}
+
+.eheader{
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 90%;
+  font-size: 1.5em; /* added this line to increase the font size of the header */
+  font-weight: bold; /* added this line to make the header text bold */
+  padding-bottom: 5px;
+}
+
+.enum{
+  font-size: 60px;
+  font-weight: 700;
+  padding: 5px; /* added this line to add some padding inside the input field */
+  margin-top: 16px; 
+}
+
+/* styling selector */
+body{
+  background-image: url('/public/ssscribble.svg');
+  background-color: #7373da;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  color: #EAF6FF;
+}
+
+.main-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.child-div{
+  flex: 1; /* Divide the available space equally among the items */
+  list-style: none;
+  flex-direction: row; /* Remove bullet points */
+}
+
+.img1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  color: #EAF6FF;
+  text-decoration: none;
+  background-image: url('/public/electricity.jpg');
+  height: 188px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.img2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  color: #EAF6FF;
+  background-image: url('/public/fuel.jpg');
+  height: 188px;
+  background-position: 50%;
+  width: 300px;
+  border-radius: 15px;
+  
+}
+
+.img3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  color: #EAF6FF;
+  background-image: url('/public/shipping\ \(1\).jpg');
+  height: 188px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.slink{
+  text-decoration: none;
+}
+
+
+
+
+/* homepage styling */
+header{
+  color: white;
+  background: #37387a;
+  background-image: url('/public/home.jpg');
+  min-height: 50vh;
+  padding-top: 20vh;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+header h1{
+  font-size: 3rem;
+  margin: 0 0 1rem;
+  color: #232528;
+}
+
+header h2{
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: 0 0 1rem;
+  color: #2a2a72;
+}
+
+.h-btn{
+  background-color: #232528;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  border-color: #EAF6FF;
+  font-size: larger;
+  
+  transition: all 2s ease-in-out;
+  animation: h-btn-animation 0.5s ease-in-out infinite alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+
+}
+
+.btn-link{
+  text-decoration: none;
+}
+
+@keyframes h-btn-animation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.h-btn:hover{
+  background-color: #2a2a72;
+  transform: rotate(360deg);
+}
+
+header a{
+  color: #ffff;
+}
+
+/* Add a fade-in animation to the header text and button */
+.bg-container h1, 
+.bg-container h2, 
+.bg-container .h-btn {
+  animation: fadeIn 3s;
+}
+
+/* Add a pulse animation to the "Know your emissions" button */
+.h-btn {
+  animation: pulse 2s infinite;
+}
+
+/* Add a slide-in animation to the quote text */
+.bg2-container p {
+  animation: slideIn 13s;
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+/* Add some styling to the video */
+.carbon-video {
+  height: 75vh;
+  width: 100%;
+  object-fit: cover; 
+}
+
+/* Add a background image to the header */
+.bg-image {
+  background-image: url(https://www.pexels.com/photo/photography-of-factory-929385/); 
+  background-size: cover;
+  position: relative;
+}
+
+/* Add a background color to the second section */
+.bg2-image {
+  background-color: #f5f5f5;
+}
+
+.bg2-image {
+  /* background-image: url('your-background-image-url-here.jpg'); */
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.bg2-container {
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+  color: rgb(247, 239, 239);
+   position: absolute; 
+   top: 1em;
+  right: 0px;
+  width: 500px;
+  
+  padding: 10px;
+  
+}
+
+.bg-body {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.pos1 {
+  animation: slideInLeft 1s ease;
+  font-size: 30px;
+  justify-content: flex-end;
+}
+
+.pos2 {
+  animation: slideInRight 1s ease;
+}
+
+@keyframes slideInLeft {
+  from {
+      transform: translateX(-100%);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+
+/* styling background */
+.bg2-container{
+  width: 100%;
+  height: 400px;
+}
+
+.bg2-image{
+  color: white;
+  background: #37387a;
+  background-image: url('/public/bg3.jpg');
+  min-height: 50vh;
+  padding-top: 20vh;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.bg-body{
+  margin-left: 10px;
+  font-size: x-large;
+  font-weight: bolder;
+  color: #EAF6FF;
+}
+
+.q-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 35vw;
+  margin-left: 50px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px 20px 0px 20px;
+}
+
+.q2-wrapper{
+  position: absolute;
+  bottom: 10px;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 35vw;
+  margin-left: 50px;
+  
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px 20px 0px 20px;
+}
+
+/* footer styling */
+/* Add some styling to the footer */
+.footer {
+  background-image: url('/public/ssscribble.svg');
+  background-color: #37387a;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: .8rem;
+  color: rgba(white,.4);
+}
+
+/* Add some styling to the footer links */
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+.footer li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer a {
+  display: block;
+  padding: .4rem .7rem;
+  font-size: .9rem;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer a:hover {
+  color: rgb(214, 214, 214);
+}
+
+/* table styling */
+.table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table tr:hover {background-color: #ddd;}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #2a2a72;
+  color: white;
+}
+
+/* About Us styling */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 3em 0;
+}
+.textArea {
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(155, 20, 20);
+}
+.textArea h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(10, 9, 9);
+}
+.textArea p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+    color: black;
+}
+.P2 {
+    list-style-position: outside;
+    align-items: flex-end;
+}
