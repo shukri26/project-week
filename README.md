@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# CarbonizeX App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description
+CarbonizeX is a web application that aims to help people make more informed decisions about carbon emissions. The app will provide estimates of carbon emissions based on different situations, devices, or machines.
 
-## Available Scripts
+# Background
+Climate change is one of the biggest challenges facing our world today. One of the ways we can tackle it is by reducing our carbon emissions. However, it can be difficult to know how much carbon we're emitting and how to reduce it. CarbonizeX will help people know the amount of carbon emissions generated from their activities therefore creating the awareness and enabling actions towards reduction of carbon emissions.
 
-In the project directory, you can run:
+# Using the App
+The app is accessible online via this [link](https://radiant-souffle-74def2.netlify.app/). Clicking the 'know your emissions' button or estimates button on the homepage will lead you to the various carbon emissions cartegories page. The categories include Electricity, Fuel & Shipping.
 
-### `npm start`
+* Electricity<br>
+Enter the consumption in kwh units and click estimate button, the app will then generate the carbon emission in kg.
+* Fuel<br>
+Enter the consumption in units and click estimate button, the app will then generate the carbon emission in kg.
+* Shipping<br>
+Enter the weight in kg of the cargo and distance covered in km and click estimate button, the app will then generate the carbon emission.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+On each category page, there is a link to a tables page where emissions trend are tabulated and visualized using a piechart graph.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Technologies Used to Develop the App
+The app is built using React and uses the Carbon Interface API to retrieve the data for the estimates. 
+-node js
+-css
+-html
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# App Screenshots
+<img src="./public/Screenshot-22.png"> 
+<br><br>
+<img src="./public/Screenshot-23.png">
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# License
+MIT License<br>
+Copyright (c) 2023
