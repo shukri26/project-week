@@ -1,5 +1,12 @@
 # CarbonizeX App
 
+
+
+### Deployment link
+
+- https://radiant-souffle-74def2.netlify.app/
+  
+
 # Description
 CarbonizeX is a web application that aims to help people make more informed decisions about carbon emissions. The app will provide estimates of carbon emissions based on different situations, devices, or machines.
 
@@ -8,11 +15,6 @@ Climate change is one of the biggest challenges facing our world today. One of t
 
 # Using the App
 The app is accessible online via this [link](https://radiant-souffle-74def2.netlify.app/). Clicking the 'know your emissions' button or estimates button on the homepage will lead you to the various carbon emissions cartegories page. The categories include Electricity, Fuel & Shipping.
-
-
-### Deployment link
-
-- https://radiant-souffle-74def2.netlify.app/
   
 * Electricity<br>
 Enter the consumption in kwh units and click estimate button, the app will then generate the carbon emission in kg.
